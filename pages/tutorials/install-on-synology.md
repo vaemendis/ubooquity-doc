@@ -99,7 +99,7 @@ to
 
 #### Steps
 
-1. The Ubooquity web interface should be running at `192.168.1.2:2202`. Go to `192.168.1.2:2202/admin` and you will be asked to set the administrator password. Set the password.
+1. The Ubooquity web interface should be running at `192.168.1.2:2202`. Go to `192.168.1.2:2202/admin` and you will be asked to set the administrator password. Set the password.  
 2. Edit the comics settings and add `/volume1/Comics` in the shared directory text area.  
 ![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_07.jpg)
 3. Edit the advanced settings. Enable OPDS and add `.*Ubooquity` to the scan exclusion pattern.   
@@ -121,7 +121,7 @@ When a new version of Ubooquity is released you can use the following line to au
 Here is the service script for reference. You may want to change the Xmx parameter and the workdir. 1024m is 1GB (1,024MB). To give 256MB of RAM to Ubooquity use -Xmx256m.
 
 
-```
+```bash
 start on started httpd-user
 stop on runlevel [06]
  

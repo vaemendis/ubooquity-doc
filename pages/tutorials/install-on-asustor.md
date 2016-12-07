@@ -34,7 +34,7 @@ It will work perfectly and you will be able to go to admin screen typing in your
 
 As after that it will not be so easy to stop and restart, I would recommand to create the following script called start-stop.sh in same folder as Ubooquity : 
 
-```
+```bash
 #!/bin/sh
  
 # ums files
