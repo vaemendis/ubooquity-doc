@@ -114,27 +114,32 @@ Follow the instructions of [this tutorial]({{ site.baseurl }}/pages/tutorials/lo
 ### Can I have a Docker container for Ubooquity?
 
 Docker containers have been set up by some users and are available here:
-##
-####HurricaneHernandez
+
+---
+
+#### HurricaneHernandez
 Docker repository: [https://registry.hub.docker.com/u/hurricane/ubooquity/](https://registry.hub.docker.com/u/hurricane/ubooquity/)  
 Forum thread: [http://lime-technology.com/forum/index.php?topic=36278.0](http://lime-technology.com/forum/index.php?topic=36278.0)  
 Github repository for scripts: [https://github.com/HurricaneHernandez/ubooquity](https://github.com/HurricaneHernandez/ubooquity)  
 
 (not packaged by me, please address your questions directly on the Lime Technology forums) 
-##
-####[LinuxServer.io](https://linuxserver.io)
-**For x64 devices**
+
+---
+
+#### [LinuxServer.io](https://linuxserver.io)
+
+**For x64 devices**  
 Docker repository: [https://hub.docker.com/r/linuxserver/ubooquity/](https://hub.docker.com/r/linuxserver/ubooquity/)  
 Github repository: [https://github.com/linuxserver/docker-ubooquity](https://github.com/linuxserver/docker-ubooquity)  
 
 (not packaged by me, please address setup queries directly on the [LinuxServer.io forum](https://forum.linuxserver.io/), [LinuxServer.io IRC chatroom](https://www.linuxserver.io/irc/) or, for Unraid users, the [Lime Technology forum](http://lime-technology.com/forum/index.php?topic=54543.0))
 
-**For ARM devices**
+**For ARM devices**  
  Docker repository: [https://hub.docker.com/r/lsioarmhf/ubooquity/](https://hub.docker.com/r/lsioarmhf/ubooquity/)  
 Github repository: [https://github.com/linuxserver/docker-ubooquity-armhf](https://github.com/linuxserver/docker-ubooquity-armhf)  
 
 (not packaged by me, please address setup queries directly on the [LinuxServer.io forum](https://forum.linuxserver.io/) or the  [LinuxServer.io IRC chatroom](https://www.linuxserver.io/irc/))
-##
+
 ### Where can I find the source code of Ubooquity ?
 
 Ubooquity is free to use but is not open source.
