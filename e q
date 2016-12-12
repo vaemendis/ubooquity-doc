@@ -1,0 +1,104 @@
+[33mcommit 2057bd68c7ce836376749b73fa3f721b0c043f6f[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Mon Dec 12 21:07:36 2016 +0100
+
+    Update 404.html
+
+[33mcommit a59d5abd1ab8ce8d9a8a6fb0cfe1dc9a443dea89[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Mon Dec 12 21:01:50 2016 +0100
+
+    Update 404.html
+
+[33mcommit 6e7390c134ac261d1c30f0925c0b826fa3ffbbe3[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Mon Dec 12 20:30:33 2016 +0100
+
+    Update 404.html
+
+[33mcommit 8324de4c857d463b4d27b3b392615ab7fe9a531f[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Mon Dec 12 20:27:50 2016 +0100
+
+    Create 404.html
+
+[33mcommit 1c81a796b7e639e6c2ba0b1e4aae003ab03f2b6c[m
+Author: Tom <tom@ftml.net>
+Date:   Sat Dec 10 12:13:44 2016 +0100
+
+    fix missing script
+
+[33mcommit 63f90dac2864b1e81efcae249f7540a645cd2fc4[m
+Author: Tom <tom@ftml.net>
+Date:   Sat Dec 10 10:50:49 2016 +0100
+
+    fix missing script
+
+[33mcommit 8ecc30b0eecdd5e0ba84e4090ec421d2ab33db3d[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Fri Dec 9 19:52:50 2016 +0100
+
+    Fix syntax
+
+[33mcommit 5c5249955c412c8641e260835e82bda8b54f4197[m
+Merge: 39fc664 e4b8101
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Fri Dec 9 19:49:02 2016 +0100
+
+    Merge pull request #1 from CHBMB/master
+    
+    Update faq.md
+
+[33mcommit e4b8101ca4a92bd5430f7a5e5da8fd2e3c138c1b[m
+Author: Neil <chbmb@linuxserver.io>
+Date:   Thu Dec 8 23:56:08 2016 +0000
+
+    Update faq.md
+
+[33mcommit 39fc664905ddf9d66ecbb5176befd90715a3b69b[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Wed Dec 7 21:02:38 2016 +0100
+
+    Improved footer
+
+[33mcommit 2ff6cb2e65d81a9de4a5cea8b8d3868887575d0f[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Wed Dec 7 21:00:38 2016 +0100
+
+    Improve footer
+
+[33mcommit 53af6c3b33cd60035afb6f7e36ec84a8633a60b2[m
+Author: Tom <tom@ftml.net>
+Date:   Wed Dec 7 20:27:26 2016 +0100
+
+    misc improvements
+
+[33mcommit e2dffe0b5e351ae39201754f4e079b1e5c227595[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Wed Dec 7 13:13:40 2016 +0100
+
+    Update install-on-asustor.md
+
+[33mcommit 2e10116e87e5d431ae526258d0d04848945aeeb0[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Wed Dec 7 13:12:37 2016 +0100
+
+    Update install-on-synology.md
+
+[33mcommit 5631ef786c0c9e8a8b72f5b732b3dd2ec88e3265[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Wed Dec 7 13:11:52 2016 +0100
+
+    Update add-metadata-with-comicrack.md
+
+[33mcommit bc2c160aae23077154b2dec9d5587810fbe24106[m
+Author: Tom <tom@ftml.net>
+Date:   Fri Nov 18 22:19:16 2016 +0100
+
+    Documentation migration from the wiki and the website
+
+[33mcommit e50b1cfea7bd45f8acee1f1a6fefea570a290fc4[m
+Author: Tom <vaemendis@users.noreply.github.com>
+Date:   Fri Nov 18 21:26:34 2016 +0100
+
+    Initial commit

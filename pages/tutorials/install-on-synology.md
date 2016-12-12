@@ -72,9 +72,8 @@ _written by Matthew Sanders_
 5. Download the Ubooquity archive with `wget -O ubooquity.zip http://vaemendis.net/ubooquity/service/download.php`
 6. Unzip the archive then remove it with `7z x ubooquity.zip && rm ubooquity.zip`
 7. Move to the Synology Upstart services directory. All services listed here are started on boot. `cd /etc/init`
-8.  Download the Ubooquity service script with `wget https://vaemendis.github.io/ubooquity-doc/assets/files/ubooquity-conf.zip`
-9. Unzip it with `7z x ubooquity-conf.zip`
-10. Make the service script executable with `chmod 755 ubooquity.conf`
+8.  Download the Ubooquity service script with `wget https://vaemendis.github.io/ubooquity-doc/assets/files/install-synology/ubooquity.conf`
+9. Make the service script executable with `chmod 755 ubooquity.conf`
 
 The Ubooquity service is now installed. It will start on boot and you can start or stop it at anytime using `start ubooquity` or `stop ubooquity`. 
 
@@ -110,7 +109,7 @@ to
 
 When a new version of Ubooquity is released you can use the following line to automatically update your existing Ubooquity installation. 
 
-`cd /var/packages && [ -d Ubooquity ] || mkdir Ubooquity && cd Ubooquity && wget -O ubooquity.zip http://vaemendis.net/ubooquity/service/download.php && 7z x ubooquity.zip && rm ubooquity.zip && cd /etc/init && wget http://vaemendis.net/ubooquity/misc/synology-tutorial/script/ubooquity.conf && chmod 755 ubooquity.conf`
+`cd /var/packages && [ -d Ubooquity ] || mkdir Ubooquity && cd Ubooquity && wget -O ubooquity.zip http://vaemendis.net/ubooquity/service/download.php && 7z x ubooquity.zip && rm ubooquity.zip && cd /etc/init && wget https://vaemendis.github.io/ubooquity-doc/assets/files/install-synology/ubooquity.conf && chmod 755 ubooquity.conf`
 
 ## Troubleshooting
 
