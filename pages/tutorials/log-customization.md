@@ -1,7 +1,4 @@
----
-layout: page
-title: Log format customization
----
+# Log format customization
 
 If the default formatting used for the log file does not suits your needs (for instance if you use [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page), you need a specific time format), you can override the default log configuration file.
 
@@ -44,7 +41,8 @@ You can find [here](http://docs.oracle.com/javase/7/docs/api/java/text/SimpleDat
 If you want complete control of your logs, take a look at the [Logback configuration documentation](http://logback.qos.ch/manual/configuration.html).  
 
 #### Step 3
-Modify your starting script to force the use of your new configuration at startup.
+Modify your starting script to force the use of your new configuration at startup.  
+Your configuration file **_must_** be placed in your Ubooquity working directory (the directory where ubooquity creates its own folders, database and prederences files) or it will be ignored.  
 Add the `-Dlogback.configurationFile` parameter with the **_absolute_** path to your configuration file:
 
 ```
