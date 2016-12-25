@@ -1,4 +1,7 @@
-# Log format customization
+---
+layout: page
+title: Log format customization
+---
 
 If the default formatting used for the log file does not suits your needs (for instance if you use [Fail2ban](http://www.fail2ban.org/wiki/index.php/Main_Page), you need a specific time format), you can override the default log configuration file.
 
