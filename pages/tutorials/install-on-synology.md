@@ -64,6 +64,12 @@ _written by Matthew Sanders_
 
 #### Steps
 
+> **UPDATE DSM 6**
+> Login with root is not possible anymore on DSM 6. Replace step 2 with the following 3 steps
+> 1. Login with admin and your admin password
+> 2. enter; sudo -i
+> 3. enter your password 
+
 1. If you are using Windows download and run the [Putty SSH client](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 2. Connect to your server through SSH at 192.168.1.2 then log in as the root user using the admin password. That is the same user you used to log in to the Synology DSM web interface.  
 ![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_06.jpg)
