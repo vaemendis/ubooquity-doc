@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Enabling HTTPS With LetsEncrypt
 ---
 

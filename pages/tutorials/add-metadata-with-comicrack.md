@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Adding metadata to your comic files for Ubooquity
 ---
 

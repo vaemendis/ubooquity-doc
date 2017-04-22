@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Synology NAS installation tutorial
 ---
 

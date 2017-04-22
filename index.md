@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Introduction
+title: Ubooquity documentation
 ---
+
 Welcome !
 
 You can find information about Ubooquity in:

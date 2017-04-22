@@ -1,0 +1,57 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body{  
+    overflow-y: scroll;
+}
+
+.navbar {
+    padding-left: 56px;
+    padding-top: 14px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, .15);
+    background-color: #00345a;
+    border-color: #041a2a;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .1);
+    height: 50px;    
+}
+
+.navbar .navbar-collapse {
+    border-color: #041a2a;
+}
+
+.navbar .navbar-brand {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+}
+
+.navbar .navbar-nav>li>a {
+    color: #c9d4dd;
+}
+
+.navbar .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar .navbar-nav>.active>a,
+.navbar .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #066db9;
+}
+
+.navbar .navbar-toggle {
+    border-color: #041a2a;
+}
+
+.navbar .navbar-toggle:hover {
+    background-color: #041a2a;
+    border-color: #041a2a;
+}
+
+.icon-white {
+    max-width: 28px;
+    float: left;
+    margin-right: 7px;
+}
