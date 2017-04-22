@@ -19,6 +19,7 @@ production_url : https://vaemendis.github.io/ubooquity-doc
 # Tell Github to use the kramdown markdown interpreter
 # (see https://help.github.com/articles/migrating-your-pages-site-from-maruku)
 markdown: kramdown
+theme: jekyll-theme-cayman
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
