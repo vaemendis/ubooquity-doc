@@ -16,6 +16,8 @@ You can find information about Ubooquity in:
   * [Add metadata to your comics with ComiRack]({{ site.baseurl }}/pages/tutorials/add-metadata-with-comicrack.html)
   * [Enable HTTPS with Let's Encrypt]({{ site.baseurl }}/pages/tutorials/lets-encrypt.html)
 
- 
+Miscellaneous resources:
+
+* [Ubboquity directory structure]({{ site.baseurl }}/pages/dir-structure.html)
 
 If you don't find the answer you are looking for in the documentation, try [the Forum](http://ubooquity.userecho.com/).
