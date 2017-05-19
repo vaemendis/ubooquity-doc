@@ -18,6 +18,6 @@ You can find information about Ubooquity in:
 
 Miscellaneous resources:
 
-* [Ubboquity directory structure]({{ site.baseurl }}/pages/dir-structure.html)
+* [Ubooquity directory structure]({{ site.baseurl }}/pages/dir-structure.html)
 
 If you don't find the answer you are looking for in the documentation, try [the Forum](http://ubooquity.userecho.com/).
