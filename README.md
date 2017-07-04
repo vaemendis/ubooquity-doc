@@ -36,6 +36,5 @@ You can ignore all the other directories.
 ### Hints
 
  * All the documentation is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
- * When creating internal links, use `{{ site.baseurl }}` as the base URL of the documentation and replace the ".md" extension by ".html" as Markdown files are transformed into HTML files upon publication.  
- For instance the file  `index.md` is located at `{{ site.baseurl }}/index.html`
+ * When creating internal links, replace the ".md" extension by ".html" as Markdown files are transformed into HTML files upon publication. 
 
