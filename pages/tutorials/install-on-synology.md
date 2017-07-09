@@ -38,20 +38,20 @@ _written by Matthew Sanders_
 #### Steps
 
 1. Open the webadmin interface 192.168.1.2:5000. Log in to the DSM and open the Control Panel  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_01.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_01.jpg)
 
 2. Open the Terminal & SNMP tab and enable the SSH service.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_02.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_02.jpg)
 
 3. Open the Package Center and install the Java Manager.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_03.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_03.jpg)
 
 4. Open the Java Manager application and follow the instructions to download the most recent Java SE Development Kit for your server architecture then choose the archive you downloaded and use it to install Java.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_05.jpg))
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_04.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_05.jpg))
+![](../../assets/images/install-synology/synology_tutorial_image_04.jpg)
 
 5. Create a shared folder titled “Comics”.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_09.png)
+![](../../assets/images/install-synology/synology_tutorial_image_09.png)
 
 ## Connect with SSH
 
@@ -71,7 +71,7 @@ _written by Matthew Sanders_
 
 1. If you are using Windows download and run the [Putty SSH client](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html).
 2. Connect to your server through SSH at 192.168.1.2 then log in as the root user using the admin password. That is the same user you used to log in to the Synology DSM web interface.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_06.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_06.jpg)
 3. Browse to /var/packages/ using the command cd /var/packages
 4. Create the Ubooquity directory then enter it with `[ -d Ubooquity ] || mkdir Ubooquity && cd Ubooquity`
 5. Download the Ubooquity archive with `wget -O ubooquity.zip http://vaemendis.net/ubooquity/service/download.php`
@@ -105,9 +105,9 @@ to
 
 1. The Ubooquity web interface should be running at `192.168.1.2:2202`. Go to `192.168.1.2:2202/admin` and you will be asked to set the administrator password. Set the password.  
 2. Edit the comics settings and add `/volume1/Comics` in the shared directory text area.  
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_07.jpg)
+![](../../assets/images/install-synology/synology_tutorial_image_07.jpg)
 3. Edit the advanced settings. Enable OPDS and add `.*Ubooquity` to the scan exclusion pattern.   
-![]({{site.baseurl}}/assets/images/install-synology/synology_tutorial_image_08.png)
+![](../../assets/images/install-synology/synology_tutorial_image_08.png)
 4. Scroll to the top of the admin page to the General area and click 'Launch new scan'. Your comics are now available at `192.168.1.2:2202` and should be bookmarked.
 
 ## Update Ubooquity
