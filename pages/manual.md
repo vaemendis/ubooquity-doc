@@ -29,9 +29,7 @@ Here are the steps of an installation without using the graphical interface.
 
 3. Unzip the downloaded file in a dedicated folder of your choice (the folder must be empty, Ubooquity will create here [all the files](dir-structure.html) it needs to function).  
 
-| Info | |
-|-|-|
-| ![](../assets/images/info.png)| Since Ubooquity will write files in this folder, you must provide the appropriate rights (read _and_ write) to the user which will launch the Ubooquity process. |
+    ![](../assets/images/info.png) Since Ubooquity will write files in this folder, you must provide the appropriate rights (read _and_ write) to the user which will launch the Ubooquity process.
 <br>
   
 
@@ -46,9 +44,7 @@ Here are the steps of an installation without using the graphical interface.
 
 5. Once Ubooquity is running, go to the administration page on **http://YOUR_IP:2203/admin** and choose an administration password.  
 
-| Info | |
-|-|-|
-| ![](../assets/images/info.png)| For security reasons, the administration is only reachable from the device Ubooquity is running on. To allow access from a remote computer, use the `--remoteadmin` option. Example: `java -jar Ubooquity.jar --remoteadmin` |
+    ![](../assets/images/info.png) For security reasons, the administration is only reachable from the device Ubooquity is running on. To allow access from a remote computer, use the `--remoteadmin` option. Example: `java -jar Ubooquity.jar --remoteadmin`
 <br>
 
 6. Now, add the directories you want to share (comics, ebooks or other types of files) in the appropriate sections of the administration page. At this point you can also define users and password to restrict files access.  
