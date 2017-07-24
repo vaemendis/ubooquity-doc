@@ -2,6 +2,10 @@
 title: Synology NAS installation tutorial
 ---
 
+<div class="warnbox">
+This tutorial has been written quite a long time ago. The information it contains might be outdated. 
+</div>
+
 _written by Matthew Sanders_
 
 >I recommend that you assign a static local IP address to your server through your router. This enables you to bookmark the Ubooquity web interface.

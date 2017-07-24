@@ -2,6 +2,10 @@
 title: Asustor NAS installation tutorial
 ---
 
+<div class="warnbox">
+This tutorial has been written quite a long time ago. The information it contains might be outdated. 
+</div>
+
 _written by lavraielilybellule_
 
  Here is my solution to install Ubooquity on an Asustor NAS (example network address : `192.168.1.3`) and accessing it with a PC under Ubuntu (should work with a PC under Windows as well, except for the **sshfs** utility that you should replace by **win-sshfs**).
