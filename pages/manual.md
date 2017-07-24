@@ -50,8 +50,10 @@ Here are the steps of an installation without using the graphical interface.
     ---
     ![](../assets/images/info.png) For security reasons, the administration is only reachable from the device Ubooquity is running on. To allow access from a remote computer, use the `--remoteadmin` option. Example: `java -jar Ubooquity.jar --remoteadmin`
     
-    ---    
+    ---
     
+<br>
+
 6. Now, add the directories you want to share (comics, ebooks or other types of files) in the appropriate sections of the administration page. At this point you can also define users and password to restrict files access.  
 
 7. Your files are now available on **http://YOUR_IP:2202**
