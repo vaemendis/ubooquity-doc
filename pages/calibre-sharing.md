@@ -13,17 +13,17 @@ This is done using the **Embed metadata** option. To add this command to your Ca
 
 1. Open the Calibre *preferences* window and click the *toolbar* button
 
-![]({{ site.baseurl }}/assets/images/calibre/calibre-preferences.png)
+![](../assets/images/calibre/calibre-preferences.png)
 
 
 2. Select the *Main Toolbar* in the toolbar list
 
-![]({{ site.baseurl }}/assets/images/calibre/calibre-toolbar-choice.png)
+![](../assets/images/calibre/calibre-toolbar-choice.png)
 
 
 3. Find the *Embed Metadata* button and add it to your toolbar
 
-![]({{ site.baseurl }}/assets/images/calibre/calibre-toolbar-prefs.png)
+![](../assets/images/calibre/calibre-toolbar-prefs.png)
 
 
 Once you have added the button, select the ebooks on which you did metadata modifications and click it.  
@@ -38,14 +38,14 @@ While Calibre references (and displays) only one of these files, Ubooquity has n
 
 In the Calibre toolbar, click on your library and choose **Library** -> **Maintenance** -> **Check library**
 
-![]({{ site.baseurl }}/assets/images/calibre/calibre-check-library.png)
+![](../assets/images/calibre/calibre-check-library.png)
 
 After the database check, Calibre will ask if you want to check if your files match what is in the database: _"Found no errors in your calibre library database Do you want calibre to check if the files in your library match the information in the database?"_
 
 Click **yes**. You will find the duplicates in the Extra book formats section of the result screen.
 
 
-![]({{ site.baseurl }}/assets/images/calibre/calibre-remove-duplicate.png)
+![](../assets/images/calibre/calibre-remove-duplicate.png)
 
 Check all the extra files and click the **Delete marked** button.  
 After that, don't forget to refresh your collection in Ubooquity using the **Launch new scan** button if you disabled periodic auto-refresh.

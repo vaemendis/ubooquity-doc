@@ -56,19 +56,25 @@ body{
     margin-right: 7px;
 }
 
-.infobox .warnbox{
-    border:dashed lightgrey 3px;
-    padding:10px
+.infobox,
+.warnbox {
+    border: solid lightgrey 3px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
 }
 
 .infobox:before {
-    content:url(../images/info.png);
-    float:left;
-    margin-right:15px
+    content: url(../images/info.png);
+    float: left;
+    margin-right: 15px;
+    height: 100%;
 }
 
 .warnbox:before {
-    content:url(../images/warning.png);
-    float:left;
-    margin-right:15px
+    content: url(../images/warning.png);
+    float: left;
+    margin-right: 15px;
+    height: 100%;
 }
