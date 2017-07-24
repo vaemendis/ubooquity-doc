@@ -23,12 +23,16 @@ Here are the steps of an installation without using the graphical interface.
 
 3. Unzip the downloaded file in a dedicated folder of your choice (the folder must be empty, Ubooquity will create here [all the files](dir-structure.html) it needs to function).  
 
-    <div class="notebox">
-    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read _and_ write) to the user which will launch the Ubooquity process.
+    <div class="infobox">
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
     </div>
 
-<br>
-  
-
 4. When you are in the Ubooquity folder, the minimal command to launch ubooquity is (on all operating systems):
+    <div class="warnbox">
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
+    Since Ubooquity will write files in this folder, you must provide the appropriate rights (read and write) to the user which will launch the Ubooquity process.
+    </div>
    

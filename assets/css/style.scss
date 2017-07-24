@@ -56,16 +56,19 @@ body{
     margin-right: 7px;
 }
 
-.notebox{
-    border: dashed lightgrey 3px;
-    padding: 10px;
+.infobox .warnbox{
+    border:dashed lightgrey 3px;
+    padding:10px
 }
 
-.notebox:before{
-    content: url(../assets/images/info.png);
-    
-    border: solid red 3px;
-    
+.infobox:before {
+    content:url(../images/info.png);
     float:left;
-    margin-right:15px;
+    margin-right:15px
+}
+
+.warnbox:before {
+    content:url(../images/warning.png);
+    float:left;
+    margin-right:15px
 }
