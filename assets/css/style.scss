@@ -61,20 +61,17 @@ body{
     border: solid lightgrey 3px;
     border-radius: 20px;
     padding: 10px;
-    margin-bottom: 15px;
-    display: flex;
+    margin-bottom: 15px;    
 }
 
 .infobox:before {
     content: url(../images/info.png);
     float: left;
-    margin-right: 15px;
-    height: 100%;
+    margin-right: 15px;    
 }
 
 .warnbox:before {
     content: url(../images/warning.png);
     float: left;
-    margin-right: 15px;
-    height: 100%;
+    margin-right: 15px;    
 }
