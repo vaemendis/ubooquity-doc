@@ -59,26 +59,26 @@ Available options can be listed with the `--help` option:
 java -jar Ubooquity.jar --help
 ```
 
-**--remoteadmin**  
+`--remoteadmin`
 Allow access to the administration page from a remote machine. By default the adminstration page can only be reached from the local host.
 
-**--libraryport** _\<library port\>_  
+`--libraryport` _\<library port\>_  
 This option must be followed (after a blank space) by a port number between 1024 and 65535.
 For instance, if the IP address of your server is _10.0.0.3_ and set the port to _3456_, your library will be reachable in your browser at the address _10.0.0.3:3456_
 Default port is **2202**.
 
-**--adminport** _\<admin port\>_  
+`--adminport` _\<admin port\>_  
 This option must be followed (after a blank space) by a port number between 1024 and 65535.  
 For instance, if the IP address of your server is _10.0.0.3_ and set the port to _3457_, the admin page will be reachable in your browser at the address _10.0.0.3:3457_  
 Default port is **2203**.
 
-**--headless**  
+`--headless`  
 Use it if you don't want the Ubooquity interface to be displayed, or to avoid compatibility issues on devices with no graphical environment (e.g. NAS).
 
-**--workdir** _\<directory path\>_  
+`--workdir` _\<directory path\>_  
 This option allows you to specify where Ubooquity should create its own files (database, logs, preferences, cache, etc). The default working directory is simply the one from which you run Ubooquity.
 
-**--host** _\<hostname or IP address\>_  
+`--host` _\<hostname or IP address\>_  
 By default, Ubooquity binds itself to all available network interfaces. This option allows you to specify the hostname Ubooquity should use when configuring its binding.  
 
 _Example_: if you launch Ubooquity on your local machine (with the address 192.168.0.42, for instance), you will be able to access it with your browser on localhost:2202 and 192.168.0.42:2202. Now if you add "--host 192.168.0.42" to your command line, localhost:2202 won't work anymore.
