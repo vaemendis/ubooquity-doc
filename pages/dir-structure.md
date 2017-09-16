@@ -1,4 +1,7 @@
-# Ubooquity directory structure
+---
+title: Ubooquity directory structure
+---
+
 ```
 Ubooquity
 │   preferences.json    ──>  The preferences you set up on the admin page (directories, users, etc.) 
