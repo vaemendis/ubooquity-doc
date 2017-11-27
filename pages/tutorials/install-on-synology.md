@@ -126,20 +126,22 @@ to
 
 ### Summary
 
-* create a ubooquity.sh script and save it on your box
+* create ubooquity.sh script and save it on your box
 * use task manager to tell your box to launch the script on startup
 
 ### steps
 
 1. Download the Ubooquity service script and save it on your server. 
-   * You can start with the file here
-   * adapt the script to your environment and save it  as ubooquity.sh on your server
+   * You can start with the file here 
+   ![](../../assets/files/install-synology/ubooquity.sh)
+   * adapt the script to your environment and save it as ubooquity.sh on your server.
 
 1. go in control panel, open 'task manager'
+![](../../assets/images/install-synology/Create task.png)
 
 1. create a task in "planned tasks" with 2 options
     * launch on boot
-    * use a script ubooquity.sh file from one of my shared folder
+    * use the script "ubooquity.sh" file from above
 
 
 That's it! it should start ubooquity automatically eveytime you restart your box
