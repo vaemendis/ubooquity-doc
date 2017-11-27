@@ -15,26 +15,26 @@ _written by Matthew Sanders_
 ## Requirements
 
 1. [Synology](https://www.synology.com/en-us/products/) brand NAS
-5. A Synology model capable of running the Java. Most recent models would run Java manager, check [this page](https://www.synology.com/en-uk/dsm/app_packages/JavaManager) for a list of applicable models. If your model is not listed try installing Java using [this separate tutorial](http://pcloadletter.co.uk/2011/08/23/java-package-for-synology/).
-3. Internet access
-4. Synology DSM version 5 or greater
+1. A Synology model capable of running the Java. Most recent models would run Java manager, check [this page](https://www.synology.com/en-uk/dsm/app_packages/JavaManager) for a list of applicable models. If your model is not listed try installing Java using [this separate tutorial](http://pcloadletter.co.uk/2011/08/23/java-package-for-synology/).
+1. Internet access
+1. Synology DSM version 5 or greater
 
 ### Summary
 
-* Install Java JRE 8 or greater on your server,
-* Create a shared folder to serve as repository for all your comics and books
-* Download the Ubooquity jar to a convenient place on your server,
-* tell you box to run ubbooquity on boot, 2 options here:
-> ** ssh your box and create an Upstart script in /etc/init,
-> ** for DSM6.0, use Synology's built-in task manager to run ubooquity at startup
-* Use the web interface to configure Ubooquity
+1. Install Java JRE 8 or greater on your server,
+1. Create a shared folder to serve as repository for all your comics and books
+1. Download the Ubooquity jar to a convenient place on your server,
+1. Tell you box to run ubbooquity on boot, 2 options here:
+    * Create an Upstart script in /etc/init (requires ssh access to your box),
+    * Use Synology's task scheduler (requires DSM6.0 at least) 
+1. Use the web interface to configure Ubooquity
 
 > **UPDATE 2016-11-19**
->ssh procedure (Tested on Synology ds215j running DSM 6.0.2-8451 Update 4) Java Manager application is not available on tested DSM SW/HW combination. Luckily it's not necessary because Synology issued packages Java7 and Java8 that are platform specific so the process is even simpler. Just install the Java package and skip to next step. Ubooquity 1.10.1 definitely works with Java 8. 
+> ssh procedure (Tested on Synology ds215j, running DSM 6.0.2-8451 Update 4) Java Manager application is not available on tested DSM SW/HW combination. Luckily it's not necessary because Synology issued packages Java7 and Java8 that are platform specific so the process is even simpler. Just install the Java package and skip to next step. Ubooquity 1.10.1 definitely works with Java 8. 
 
 > **UPDATE 2017-11-22**
-> ssh procedure tested on Synology ds418+
-> task manager procedure tested on synology ?? [see forum]
+> ssh procedure tested on Synology ds418+, with DSM 6.1 and Ubooquity 2.1.1
+> task scheduler procedure tested on synology ds418+ [see forum]
 
 ## Configure the Synology NAS
 
@@ -67,8 +67,7 @@ _written by Matthew Sanders_
 if not already done: enable ssh access on your box
 1. Open the webadmin interface 192.168.1.2:5000. Log in to the DSM and open the Control Panel  
 ![](../../assets/images/install-synology/synology_tutorial_image_01.jpg)
-
-2. Open the Terminal & SNMP tab and enable the SSH service.  
+1. Open the Terminal & SNMP tab and enable the SSH service.  
 ![](../../assets/images/install-synology/synology_tutorial_image_02.jpg)
 
 For security: it is usually recommanded to modify the ssh port to somthing less usual if you want to ssh your box open on internet
