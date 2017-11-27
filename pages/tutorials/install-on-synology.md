@@ -133,7 +133,7 @@ to
 
 1. Download the Ubooquity service script and save it on your server. 
    * You can start with the file here 
-   ![](../../assets/files/install-synology/ubooquity.sh)
+  [ubooquity.sh] (https://vaemendis.github.io/ubooquity-doc/assets/files/install-synology/ubooquity.sh`)
    * adapt the script to your environment and save it as ubooquity.sh on your server.
 
 1. go in control panel, open 'task manager'
