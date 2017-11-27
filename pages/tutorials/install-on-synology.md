@@ -2,22 +2,25 @@
 title: Synology NAS installation tutorial
 ---
 
+## Introduction
+
 <div class="warnbox">
-This tutorial has been written quite a long time ago. The information it contains might be outdated. 
+This tutorial is designed to help you install ubooquity on a Synology NAS.  Initial tutorial has been written quite a long time ago, _by Matthew Sanders_ and the information it contained had become outdated. 
+This updates should work for 
+   * Synology NAS running DSM6.0 version and more recent
+   * ubooquity v2.1
 </div>
 
-_written by Matthew Sanders_
+I recommend that you assign a static local IP address to your server through your router. This enables you to bookmark the Ubooquity web interface.
 
->I recommend that you assign a static local IP address to your server through your router. This enables you to bookmark the Ubooquity web interface.
+In this tutorial, 192.168.1.2 is used as an example of local IP for a Synology NAS. Replace it with your own.
 
->In this tutorial, 192.168.1.2 is used as an example of local IP for a Synology NAS. Replace it with your own.
-
-## Requirements
+### Requirements
 
 1. [Synology](https://www.synology.com/en-us/products/) brand NAS
 1. A Synology model capable of running the Java. Most recent models would run Java manager, check [this page](https://www.synology.com/en-uk/dsm/app_packages/JavaManager) for a list of applicable models. If your model is not listed try installing Java using [this separate tutorial](http://pcloadletter.co.uk/2011/08/23/java-package-for-synology/).
 1. Internet access
-1. Synology DSM version 5 or greater
+1. Synology DSM version 6 or greater (although the ssh procedure would work with DSM version 5)
 
 ### Summary
 
@@ -29,21 +32,22 @@ _written by Matthew Sanders_
     * Use Synology's task scheduler (requires DSM6.0 at least) 
 1. Use the web interface to configure Ubooquity
 
-> **UPDATE 2016-11-19**
-> ssh procedure (Tested on Synology ds215j, running DSM 6.0.2-8451 Update 4) Java Manager application is not available on tested DSM SW/HW combination. Luckily it's not necessary because Synology issued packages Java7 and Java8 that are platform specific so the process is even simpler. Just install the Java package and skip to next step. Ubooquity 1.10.1 definitely works with Java 8. 
+**UPDATE 2016-11-19**
+> ssh procedure was tested on Synology ds215j, running DSM 6.0.2-8451 Update 4) Java Manager application is not available on tested DSM SW/HW combination. Luckily it's not necessary because Synology issued packages Java7 and Java8 that are platform specific so the process is even simpler. Just install the Java package and skip to next step. Ubooquity 1.10.1 definitely works with Java 8. 
 
-> **UPDATE 2017-11-22**
+**UPDATE 2017-11-22**
 > ssh procedure tested on Synology ds418+, with DSM 6.1 and Ubooquity 2.1.1
 > task scheduler procedure tested on synology ds418+ [see forum]
 
-## Configure the Synology NAS
+## Prepare Synology NAS
 
 #### Summary
 
-* Use the Java Manager app supplied by Synology to install the latest JRE
-* Create a shared folder as repository for all comics and ebooks files
+1. Use the Java Manager app supplied by Synology to install the latest JRE
+1. Create a shared folder as repository for all comics and ebooks files
+1. upload you comics/books to the shared folder
 
-#### Steps
+#### Install Java
 
 1. Open the webadmin interface 192.168.1.2:5000. Log in to the DSM and open the Control Panel  
 ![](../../assets/images/install-synology/synology_tutorial_image_01.jpg)
@@ -55,10 +59,15 @@ _written by Matthew Sanders_
 ![](../../assets/images/install-synology/synology_tutorial_image_05.jpg))
 ![](../../assets/images/install-synology/synology_tutorial_image_04.jpg)
 
-4. Create a shared folder titled “Comics”.  
+#### Create shared foled
+1. Create a shared folder titled “Comics”.  
 ![](../../assets/images/install-synology/synology_tutorial_image_09.png)
+1. Upload your comics to the shared folder, using 'file manager' for example
 
-## Procedure with upstart script
+** note **
+Ubooquity is not doing any management of the files/folder structure: you should pay attention to the way you arrange your comics in the folder as ubooquity will use the folder structure to determine the grouping it useswill display. In my setting I use one folder for each serie.
+
+## _(option 1)_ Procedure with upstart script
 
 #### Requirement
 
@@ -111,7 +120,7 @@ to
 
 `exec /var/packages/Java8/target/j2sdk-image/bin/java -jar -Xmx1024m /var/packages/Ubooquity/Ubooquity.jar -port 2202 -webadmin -workdir "/volume1/Comics/Ubooquity"`
 
-## Procedure with task manager
+## _(option 2)_ Procedure with task scheduler
 
 ### Requirement
 
@@ -124,14 +133,13 @@ to
 
 ### steps
 
-1. Download the Ubooquity service script and save it on your server
-Look at the script used by user Eren on forum http://ubooquity.userecho.com/forums/1-general/topics/496-script-for-ubooquity-202-on-synology/
+1. Download the Ubooquity service script and save it on your server. 
+   * You can start with the file here
+   * adapt the script to your environment and save it  as ubooquity.sh on your server
 
-adapt the script to your environment and save it  as ubooquity.sh on your server
+1. go in control panel, open 'task manager'
 
-2. go in control panel, open 'task manager'
-
-3. create a task in "planned tasks" with 2 options
+1. create a task in "planned tasks" with 2 options
     * launch on boot
     * use a script ubooquity.sh file from one of my shared folder
 
