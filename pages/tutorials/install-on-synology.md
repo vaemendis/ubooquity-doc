@@ -77,7 +77,7 @@ if not already done: enable ssh access on your box
 1. Open the Terminal & SNMP tab and enable the SSH service.  
 ![](../../assets/images/install-synology/synology_tutorial_image_02.jpg)
 
-For security: it is usually recommanded to modify the ssh port to somthing less usual if you want to ssh your box open on internet
+> For security: it is usually recommanded to modify the ssh port to somthing less usual if you want to ssh your box from internet
 
 #### Summary
 
@@ -133,11 +133,12 @@ to
 
 1. Download the Ubooquity service script and save it on your server. 
    * You can start with the file here 
-  [ubooquity.sh] (https://vaemendis.github.io/ubooquity-doc/assets/files/install-synology/ubooquity.sh`)
+  [ubooquity.sh](../../assets/files/install-synology/ubooquity.sh)
+  
    * adapt the script to your environment and save it as ubooquity.sh on your server.
 
 1. go in control panel, open 'task manager'
-![](../../assets/images/install-synology/Create task.png)
+![](../../assets/images/install-synology/Create_task.png)
 
 1. create a task in "planned tasks" with 2 options
     * launch on boot
