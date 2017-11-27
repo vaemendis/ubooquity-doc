@@ -4,12 +4,10 @@ title: Synology NAS installation tutorial
 
 ## Introduction
 
-<div class="warnbox">
 This tutorial is designed to help you install ubooquity on a Synology NAS.  Initial tutorial has been written quite a long time ago, _by Matthew Sanders_ and the information it contained had become outdated. 
-This updates should work for 
-   * Synology NAS running DSM6.0 version and more recent
-   * ubooquity v2.1
-</div>
+This updates should work for: 
+* Synology NAS running DSM6.0 version and more recent
+* ubooquity v2.1
 
 I recommend that you assign a static local IP address to your server through your router. This enables you to bookmark the Ubooquity web interface.
 
