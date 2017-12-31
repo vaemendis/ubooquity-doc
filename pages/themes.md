@@ -8,7 +8,8 @@ title: User created themes
 
 [**Material Design** by Roflcop](http://ubooquity.userecho.com/topic/620813-customized-modern-theme)
 
-[**Dark Theme** by Hidea](http://ubooquity.userecho.com/topic/635839-working-on-a-new-theme/)
+[**Dark Theme** by Hidea](https://github.com/adelatour11/darktheme) (use the "Clone or download green button on the right")  
+[Forum thread](http://ubooquity.userecho.com/topic/635839-working-on-a-new-theme/)
 
 [**Dark Theme Variation** by Kimbo Price](http://ubooquity.userecho.com/topic/635839-dark-theme-for-ubooquity-available/#comment-1533101)
 
