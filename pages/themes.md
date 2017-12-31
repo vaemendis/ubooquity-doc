@@ -8,7 +8,7 @@ title: User created themes
 
 [**Material Design** by Roflcop](http://ubooquity.userecho.com/topic/620813-customized-modern-theme)
 
-[**Dark Theme** by Hidea](https://github.com/adelatour11/darktheme) (use the "Clone or download green button on the right")  
+[**Dark Theme** by Hidea](https://github.com/adelatour11/darktheme) (use the "Clone or download" green button on the right)  
 [Forum thread](http://ubooquity.userecho.com/topic/635839-working-on-a-new-theme/)
 
 [**Dark Theme Variation** by Kimbo Price](http://ubooquity.userecho.com/topic/635839-dark-theme-for-ubooquity-available/#comment-1533101)
@@ -22,5 +22,7 @@ title: User created themes
 
 ## Adding your theme to this list
 
-You wrote a theme and would like to include it in this list ?  
- Either [send me a message](http://vaemendis.net/ubooquity/contact) with a link to your theme (or a page where it can be downloaded) ans its name, or [fork the Ubooquity documentation on Github](https://github.com/vaemendis/ubooquity-doc) and modify this page as you like.
+You wrote a theme and would like to include it in this list ?
+
+ Either [send me a message](http://vaemendis.net/ubooquity/contact) with a link to your theme (or a page where it can be downloaded), or [fork the Ubooquity documentation on Github](https://github.com/vaemendis/ubooquity-doc) and modify this page as you like.  
+ Also, a small description and and indication if your theme is a variation on another existing theme would be nice.
