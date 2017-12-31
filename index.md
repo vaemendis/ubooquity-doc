@@ -20,5 +20,6 @@ You can find information about Ubooquity in:
 Miscellaneous resources:
 
 * [Ubooquity directory structure](pages/dir-structure.html)
+* [User created themes](pages/themes.html)
 
 If you don't find the answer you are looking for in the documentation, try [the Forum](http://ubooquity.userecho.com/).

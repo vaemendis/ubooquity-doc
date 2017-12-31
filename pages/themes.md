@@ -2,7 +2,7 @@
 title: User created themes
 ---
 
-<div class="warnbox">
+<div class="infobox">
     These themes have not been written nor verified by the author of Ubooquity. Use them at your own risk.
 </div>
 
