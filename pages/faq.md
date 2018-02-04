@@ -85,11 +85,11 @@ Here is a [detailed tutorial](tutorials/install-on-synology.html). (thanks to _M
 The problem comes from the underlying OS. If your environment is not configured to run processes with more than just the ASCII charset (as it happens on some NAS), you'll have issues.
 
 There is no single workaround (different users reported different results with different system settings), but you can take a look at this thread:  
-https://ubooquity.userecho.com/forums/1-general/topics/84-comics-not-imported-umlaut-mark-bug/
+[https://ubooquity.userecho.com/forums/1-general/topics/84-comics-not-imported-umlaut-mark-bug/](https://ubooquity.userecho.com/forums/1-general/topics/84-comics-not-imported-umlaut-mark-bug/)
 
 Also, these ones might contain interesting info as well:  
-https://ubooquity.userecho.com/forums/1-general/topics/496-script-for-ubooquity-202-on-synology/  
-http://ubooquity.userecho.com/forums/1-general/topics/92-tutorial-install-ubooquity-on-a-synology-nas/
+[https://ubooquity.userecho.com/forums/1-general/topics/496-script-for-ubooquity-202-on-synology/](https://ubooquity.userecho.com/forums/1-general/topics/496-script-for-ubooquity-202-on-synology/)  
+[http://ubooquity.userecho.com/forums/1-general/topics/92-tutorial-install-ubooquity-on-a-synology-nas/](http://ubooquity.userecho.com/forums/1-general/topics/92-tutorial-install-ubooquity-on-a-synology-nas/)
 
 ### I have "java.lang.OutOfMemoryError: Java heap space" messages in the logs
 
