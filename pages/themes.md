@@ -19,6 +19,9 @@ title: User created themes
 
 [**Materialized Theme** by Andreas](http://ubooquity.userecho.com/topics/456-materialized-theme-for-ubooquity/)
 
+[**Plex Based Theme** by FinalAngel](https://github.com/FinalAngel/plextheme) (use the "Clone or download" button on the right)  
+[Forum thread](https://ubooquity.userecho.com/communities/1/topics/666-plex-based-theme)
+
 
 ## Adding your theme to this list
 
