@@ -14,7 +14,7 @@ You can find information about Ubooquity in:
   * [Customize logs](pages/tutorials/log-customization.html)
   * [Install Ubooquity on a Synology NAS](pages/tutorials/install-on-synology.html)
   * [Install Ubooquity on an Asustor NAS](pages/tutorials/install-on-asustor.html)
-  * [Add metadata to your comics with ComiRack](pages/tutorials/add-metadata-with-comicrack.html)
+  * [Add metadata to your comics with ComicRack](pages/tutorials/add-metadata-with-comicrack.html)
   * [Enable HTTPS with Let's Encrypt](pages/tutorials/lets-encrypt.html)
 
 Miscellaneous resources:
