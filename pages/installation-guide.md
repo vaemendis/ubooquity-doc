@@ -17,7 +17,7 @@ Ubooquity server requires **Java 8**. You can [download it here](https://www.jav
 
 * First, download the Ubooquity package from the [download page](http://vaemendis.net/ubooquity/static2/download).  
 * Unzip the downloaded file in a dedicated folder of your choice (the folder must be empty, Ubooquity will create here [all the files](dir-structure.html) it needs to function).
-* Double-clic on the **Ubooquity.jar** file.
+* Double-click on the **Ubooquity.jar** file.
 
 Ubooquity is now running and displays its desktop interface:
 
@@ -46,6 +46,6 @@ The [User Manual](manual.html) contains much more information about what you can
 In case you prefer to learn as you go, here are a few useful tips to get you started:
 
 * As long as Ubooquity is not running, you can move its folder anywhere you want on your device. Ubooquity has all it needs in its own folder.
-* By default, the admin page cannot be reached from another machine. You must activate the "Allow remote administration" option (either in the dektop interface or using command line options) to do that.
+* By default, the admin page cannot be reached from another machine. You must activate the "Allow remote administration" option (either in the desktop interface or using command line options) to do that.
 * To access Ubooquity from another device (from your local network or from the Internet), don't forget to properly configure your firewall and/or router.
-* If you ever need to reset your administrotor password, just delete the *webadmin.cred* file in the Ubooquity folder.
+* If you ever need to reset your administrator password, just delete the *webadmin.cred* file in the Ubooquity folder.
