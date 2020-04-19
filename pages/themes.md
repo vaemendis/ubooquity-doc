@@ -22,7 +22,7 @@ title: User created themes
 [**Plex Based Theme** by FinalAngel](https://github.com/FinalAngel/plextheme) (use the "Clone or download" button on the right)  
 [Forum thread](https://ubooquity.userecho.com/communities/1/topics/666-plex-based-theme)
 
-[**Plex Theme + Currently reading comics mod ** by Starcrouz](https://bit.ly/2Khd29R)  
+[**Plex Theme + Currently reading comics mod** by Starcrouz](https://bit.ly/2Khd29R)  
 [Forum thread](https://ubooquity.userecho.com/communities/1/topics/863-the-all-currently-reading-comics-mod-for-plex-theme)
 
 
