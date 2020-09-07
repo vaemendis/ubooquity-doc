@@ -37,7 +37,7 @@ The only remaining thing to do is to choose which folders you want to share.
 
 
 You're all set!  
-Go back to the dekstop interface and click on the **Library** button to access your books.
+Go back to the desktop interface and click on the **Library** button to access your books.
 
 ## Going further
 
