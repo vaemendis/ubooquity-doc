@@ -144,3 +144,8 @@ Github repository: [https://github.com/linuxserver/docker-ubooquity-armhf](https
 
 Ubooquity is free to use but is not open source.
 That is not to say it will never be. Just not in the foreseeable future.
+
+### Can I generate password hashes myself for the admin and users ?
+
+Although Ubooquity generates theses hashes for you, if you need to generate hashes separately (for the `webadmin.cred` and `preferences.json` files), you can do it using this page:  
+(https://vaemendis.github.io/ubooquity-doc/pages/hash-generator.html)[https://vaemendis.github.io/ubooquity-doc/pages/hash-generator.html]
