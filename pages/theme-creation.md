@@ -83,7 +83,7 @@ Inverted sections, starting with `^` instead of `#`, can be used to obtain the o
 #### List sections
 
 When the variable is a list of objects, the content of the sections is rendered once for each element of the list.  
-Fields of the object then become variables that can be accessed using the usual ` {% raw %}{{...}}{% endraw %}` syntax.
+Fields of the object then become variables that can be accessed using the usual `{% raw %}{{...}}{% endraw %}` syntax.
 
 **Example** 
 A list of book objects (`items`) with the following values
