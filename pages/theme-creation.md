@@ -119,7 +119,7 @@ will be rendered as the following HTML
 
 #### Partials
 
-Mustache templates can import other Mustahce templates ("partials") with the `{{>...}}` syntax.
+Mustache templates can import other Mustahce templates ("partials") with the `{% raw %}{{>...}}{% endraw %}` syntax.
 
 **Example**
 {% raw %}
@@ -139,25 +139,28 @@ When using a theme resource link in a template, the URL must start with the curr
 The rest of the path is your theme structure (the name of your theme does **not** appear in the URL though).
 
 **Example:** using a CSS file in a template
+{% raw %}
 ```
 <link rel="stylesheet" type="text/css" href="{{rootPath}}/theme/library/books.css"/>
 ```
+ {% endraw %}
 - `{% raw %}{{rootPath}}/theme/{% endraw %}` is the path of Ubooquity's theme provider (whatever the theme) 
 - `library` is a folder inside the theme. The theme name (this one is "default") does not appear.
 
 
 #### Using a theme resource in a CSS file
 
-All CSS files inside a theme are considered Mustache templates, the `{{rootPath}}` is always available.
+All CSS files inside a theme are considered Mustache templates, the `{% raw %}{{rootPath}}{% endraw %}` variable is always available.
 
 **Example**: using an icon from the theme
-
+{% raw %}
 ```
 #arrowleft {
 	background-image:url('{{rootPath}}/theme/library/arrowleft.svg');
 	background-repeat:no-repeat;	
 }
 ```
+ {% endraw %}
 
 
 ## Advanced features 
