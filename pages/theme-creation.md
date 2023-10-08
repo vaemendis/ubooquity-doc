@@ -117,11 +117,6 @@ will be rendered as the following HTML
 
 Mustache templates can import other Mustahce templates ("partials") with the `{{>...}}` syntax.
 
-**Example**
-```
-{{>common/inc-header.html}}
-```
-
 ### Resources path (images, CSS...)
  
 Themes contain template files but also resources (usually images and CSS).  
