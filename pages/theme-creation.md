@@ -67,12 +67,14 @@ See the [**variables reference page**](https://vaemendis.github.io/ubooquity-doc
 #### Sections
 
 Mustache sections can be used to hide or show blocks of text depending on a varaible value.  
-They start with `{{#...}}` and end with `{{/...}}`.
+They start with `{% raw %}{{#...}}{% endraw %}` and end with `{% raw %}{{/...}}{% endraw %}`.
 
 ```
+{% raw %}
 {{#myVariable}}
     <div>Some text</div>
 {{/myVariable}}
+{% endraw %}
 ```
 The `div` block will be displayed only if `myVariable` is **not** `false` nor empty.
 
@@ -116,6 +118,11 @@ will be rendered as the following HTML
 #### Partials
 
 Mustache templates can import other Mustahce templates ("partials") with the `{{>...}}` syntax.
+
+**Example**
+```
+ {{>common/inc-header.html}}
+```
 
 ### Resources path (images, CSS...)
  
