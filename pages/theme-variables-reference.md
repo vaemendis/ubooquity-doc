@@ -56,7 +56,44 @@ You can print all these variables and their actual values in your logs by activa
 
 
 
+## CSS files
 
+### Relevant templates
+
+All CSS files.
+
+### Variables
+
+<table class="jh-type-object jh-root">
+  <tbody class="">
+    <tr class="header">
+      <td>Name</td>
+      <td>Example value</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <th class="jh-key jh-object-key">rootPath</th>
+      <td class="jh-value jh-object-value">
+        <span class="jh-type-string">/proxy-prefix</span>
+      </td>
+      <td>The prefix part of Ubooquity URL if a proxy is defined, an empty string otherwise.</td>
+    </tr>
+    <tr>
+      <th class="jh-key jh-object-key">coverWidth</th>
+      <td class="jh-value jh-object-value">
+        <span class="jh-type-string">160</span>
+      </td>
+      <td>Width of an item cover.</td>
+    </tr>
+        <tr>
+      <th class="jh-key jh-object-key">coverHeight</th>
+      <td class="jh-value jh-object-value">
+        <span class="jh-type-string">230</span>
+      </td>
+      <td>Height of an item cover.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -64,7 +101,7 @@ You can print all these variables and their actual values in your logs by activa
 
 ## Login page
 
-### Templates used
+### Relevant templates
 
 - `login/page-login.html`
 - `common/inc-header.html`
@@ -146,7 +183,7 @@ You can print all these variables and their actual values in your logs by activa
 
 ## Home page
 
-### Templates used
+### Relevant templates
 
 - `home/page-home.html`
 - `common/inc-header.html`
@@ -281,7 +318,7 @@ You can print all these variables and their actual values in your logs by activa
 
 ## Library - category root folders page
 
-### Templates used
+### Relevant templates
 
 - `library/page-library-category-root-dirs.html`
 - `common/inc-header.html`
@@ -545,7 +582,7 @@ You can print all these variables and their actual values in your logs by activa
 
 ## Library - items page
 
-### Templates used
+### Relevant templates
 
 - `library/page-library.html`
 - `common/inc-header.html`
@@ -668,7 +705,7 @@ Same variables as for the **Library - category root folders** page above, withou
 
 ## Library - item details
 
-### Templates used
+### Relevant templates
 
 - `library/page-library-details.html`
 
