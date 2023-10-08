@@ -61,7 +61,7 @@ The main Mustache features used in the default theme are the following.
 
 #### Variable substitution
 
-Variables enclosed in `{{...}}` are replaced with values provided by Ubooquity.  
+Variables enclosed in `{% raw %}{{...}}{% endraw %}` are replaced with values provided by Ubooquity.  
 See the [**variables reference page**](https://vaemendis.github.io/ubooquity-doc/pages/theme-variables-reference.html) for an exhaustive list of available variables for each page.
 
 #### Sections
@@ -69,21 +69,21 @@ See the [**variables reference page**](https://vaemendis.github.io/ubooquity-doc
 Mustache sections can be used to hide or show blocks of text depending on a varaible value.  
 They start with `{% raw %}{{#...}}{% endraw %}` and end with `{% raw %}{{/...}}{% endraw %}`.
 
-```
 {% raw %}
+```
 {{#myVariable}}
     <div>Some text</div>
 {{/myVariable}}
-{% endraw %}
 ```
+{% endraw %}
 The `div` block will be displayed only if `myVariable` is **not** `false` nor empty.
 
-Inverted sections, starting with `{{^...}}`, can be used to obtain the opposite behaviour: the block will be displayed if the value is false or empty.
+Inverted sections, starting with `^` instead of `#`, can be used to obtain the opposite behaviour: the block will be displayed if the value is false or empty.
 
 #### List sections
 
 When the variable is a list of objects, the content of the sections is rendered once for each element of the list.  
-Fields of the object then become variables that can be accessed using the usual `{{...}}` syntax.
+Fields of the object then become variables that can be accessed using the usual ` {% raw %}{{...}}{% endraw %}` syntax.
 
 **Example** 
 A list of book objects (`items`) with the following values
@@ -95,6 +95,7 @@ items:
     itemCoverUrl: "/proxy-prefix/cover/3645"
 ```
 using the follwing template
+{% raw %}
 ```
 {{#items}}
         <div class="book">
@@ -103,6 +104,7 @@ using the follwing template
         </div>        
 {{/items}}
 ```
+{% endraw %}
 will be rendered as the following HTML
 ```
  <div class="book">
@@ -120,9 +122,11 @@ will be rendered as the following HTML
 Mustache templates can import other Mustahce templates ("partials") with the `{{>...}}` syntax.
 
 **Example**
+{% raw %}
 ```
  {{>common/inc-header.html}}
 ```
+ {% endraw %}
 
 ### Resources path (images, CSS...)
  
@@ -138,7 +142,7 @@ The rest of the path is your theme structure (the name of your theme does **not*
 ```
 <link rel="stylesheet" type="text/css" href="{{rootPath}}/theme/library/books.css"/>
 ```
-- `{{rootPath}}/theme/` is the path of Ubooquity's theme provider (whatever the theme) 
+- `{% raw %}{{rootPath}}/theme/{% endraw %}` is the path of Ubooquity's theme provider (whatever the theme) 
 - `library` is a folder inside the theme. The theme name (this one is "default") does not appear.
 
 
