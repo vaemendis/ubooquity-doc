@@ -627,6 +627,69 @@ Same variables as for the **Library - category root folders** page above, withou
 <td>Id of the displayed item.</td>
                     </tr>
                     <tr>
+                          <th class="jh-key jh-object-key">seriesName</th>
+                          <td class="jh-value jh-object-value">
+                            <span class="jh-type-string">The Hitchhiker's Guide to the Galaxy</span>
+                          </td>
+                    <td>Name of the series the item belongs to, or an empty string.</td>
+                        </tr>
+                        <tr>
+                          <th class="jh-key jh-object-key">rating</th>
+                          <td class="jh-value jh-object-value">
+                            <span class="jh-type-string">★★★★☆</span>
+                          </td>
+                    <td>The calibre rating found in the item metadata.</td>
+                        </tr>
+                        <tr>
+                            <th class="jh-key jh-object-key">language</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">fr-FR</span>
+                            </td>
+                      <td>Language found in the item matadata.</td>
+                          </tr>   
+                          <tr>
+                            <th class="jh-key jh-object-key">writers</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">Douglas Adams</span>
+                            </td>
+                      <td>Writers found in the item matadata.</td>
+                          </tr>      
+                          <tr>
+                            <th class="jh-key jh-object-key">seriesIndex</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">2</span>
+                            </td>
+                      <td>Index of this item in its series (or an empty string).</td>
+                          </tr>
+                          <tr>
+                            <th class="jh-key jh-object-key">tags</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">Novel Science-fiction Humor</span>
+                            </td>
+                      <td>Tags found in the item matadata.</td>
+                          </tr>    
+                          <tr>
+                            <th class="jh-key jh-object-key">fileSize</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">4.8 MB</span>
+                            </td>
+                      <td>Size of the item file.</td>
+                          </tr>
+                          <tr>
+                            <th class="jh-key jh-object-key">fileExtension</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">EPUB</span>
+                            </td>
+                      <td>Extension of the item file.</td>
+                          </tr>     
+                          <tr>
+                            <th class="jh-key jh-object-key">publicationDate</th>
+                            <td class="jh-value jh-object-value">
+                              <span class="jh-type-string">2020-07-14</span>
+                            </td>
+                      <td>Publication date found in the item matadata.</td>
+                          </tr>
+                    <tr>
                       <th class="jh-key jh-object-key">itemFolderUrl</th>
                       <td class="jh-value jh-object-value">
                         <span class="jh-type-string">/proxy-prefix/comics/803/</span>
@@ -728,74 +791,11 @@ Same variables as for the **items** elements above, with the following additiona
 <td>The prefix part of Ubooquity URL if a proxy is defined, an empty string otherwise.</td>
     </tr>
     <tr>
-      <th class="jh-key jh-object-key">seriesName</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">The Hitchhiker's Guide to the Galaxy</span>
-      </td>
-<td>Name of the series the item belongs to, or an empty string.</td>
-    </tr>
-    <tr>
-      <th class="jh-key jh-object-key">rating</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">★★★★☆</span>
-      </td>
-<td>The calibre rating found in the item metadata.</td>
-    </tr>
-    <tr>
       <th class="jh-key jh-object-key">description</th>
       <td class="jh-value jh-object-value">
         <span class="jh-type-string">In The Restaurant at the End of the Universe (published in 1980), Zaphod is separated from ...</span>
       </td>
 <td>Description found in the item matadata.</td>
-    </tr>
-    <tr>
-      <th class="jh-key jh-object-key">language</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">fr-FR</span>
-      </td>
-<td>Language found in the item matadata.</td>
-    </tr>   
-    <tr>
-      <th class="jh-key jh-object-key">writers</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">Douglas Adams</span>
-      </td>
-<td>Writers found in the item matadata.</td>
-    </tr>      
-    <tr>
-      <th class="jh-key jh-object-key">seriesIndex</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">2</span>
-      </td>
-<td>Index of this item in its series (or an empty string).</td>
-    </tr>
-    <tr>
-      <th class="jh-key jh-object-key">tags</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">Novel Science-fiction Humor</span>
-      </td>
-<td>Tags found in the item matadata.</td>
-    </tr>    
-    <tr>
-      <th class="jh-key jh-object-key">fileSize</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">4.8 MB</span>
-      </td>
-<td>Size of the item file.</td>
-    </tr>
-    <tr>
-      <th class="jh-key jh-object-key">fileExtension</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">EPUB</span>
-      </td>
-<td>Extension of the item file.</td>
-    </tr>     
-    <tr>
-      <th class="jh-key jh-object-key">publicationDate</th>
-      <td class="jh-value jh-object-value">
-        <span class="jh-type-string">2020-07-14</span>
-      </td>
-<td>Publication date found in the item matadata.</td>
     </tr>
   </tbody>
 </table>
