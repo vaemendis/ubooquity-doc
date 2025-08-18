@@ -10,7 +10,8 @@ NB: to run Ubooquity using the command line, on a NAS for instance, read the [Us
 
 ## Requirements
 
-Ubooquity server requires **Java 8**. You can [download it here](https://www.java.com/en/download/manual.jsp).  
+Ubooquity server requires **Java 17**.  
+You can download a Java Runtime Environment (JRE) on the [Eclipse Temurin page](https://adoptium.net/en-GB/temurin/releases), although any other Java distribution can be used as well.
 
 
 ## Installation
@@ -21,7 +22,7 @@ Ubooquity server requires **Java 8**. You can [download it here](https://www.jav
 
 Ubooquity is now running and displays its desktop interface:
 
-![](../assets/images/screenshots/desktop-interface.jpg)
+![](../assets/images/screenshots/desktop-interface-2.png)
 
 
 ## Configuration
@@ -29,11 +30,11 @@ Ubooquity is now running and displays its desktop interface:
 The only remaining thing to do is to choose which folders you want to share.
 
 * Click on the **Admin screen** button. The administration page will open in your browser, asking you to choose an adminstrator password.  
-* Once you've chosen one (and entered it gain to log into the administration zone), click on either the **Comics** or **Books** section, depending on what you want to share.
+* Once you've chosen one (and entered it again to log into the administration zone), click on the **Library** section.
 * Just click on the **Add folder** button, share a folder and you're almost done.
 * Don't forget to click on the **Save and restart** button (upper right corner). 
 
-![](../assets/images/screenshots/web-admin-general.jpg)
+![](../assets/images/screenshots/web-admin-general-2.png)
 
 
 You're all set!  

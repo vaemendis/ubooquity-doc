@@ -4,6 +4,10 @@ title: Enabling HTTPS With LetsEncrypt
 
 _Written by Saltypoison_
 
+<div class="warnbox">
+This tutorial was written quite a long time ago. The information it contains might be outdated. 
+</div>
+
 ## A few caveats...
 
  * If your domain is a sub domain on a popular domain, there is a good chance you won't be able to get a certificate, as they are distributed in limited quantities per domain.

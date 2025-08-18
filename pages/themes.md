@@ -6,14 +6,20 @@ title: User created themes
     These themes have not been written nor verified by the author of Ubooquity. Use them at your own risk.
 </div>
 
+# Themes for Ubooquity 3
+
+Coming soon.
+
+# Themes for Ubooquity 2
+
+These themes cannot be used with the latest version of Ubooquity (version 3). They require Ubooquity version 2.
+
 [**Material Design** by Roflcop](http://ubooquity.userecho.com/topic/620813-customized-modern-theme)
 
 [**Dark Theme** by Hidea](https://github.com/adelatour11/darktheme) (use the "Clone or download" green button on the right)  
 [Forum thread](http://ubooquity.userecho.com/topic/635839-working-on-a-new-theme/)
 
 [**Dark Theme Variation** by Kimbo Price](http://ubooquity.userecho.com/topic/635839-dark-theme-for-ubooquity-available/#comment-1533101)
-
-[**Dark Theme Flat variant** by Justin Brown](https://drive.google.com/file/d/0B2UyNSVyI_nRbzNZak9pUFZQQ2M/view?usp=sharing)
 
 [**Comixology Theme** by Scott](http://ubooquity.userecho.com/topic/1061595-comixology-theme/)
 

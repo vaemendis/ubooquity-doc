@@ -18,15 +18,6 @@ If you chose to protect shared folders by creating users, you must specify for e
 
 When you choose your admin password for the first time, Ubooquity creates a *webadmin.cred* file in its working directory. To change the password, just delete the *webadmin.cred* file and the next time you go on the admin page, Ubooquity will ask you to choose a password again.
 
-### I can download my comics using Ubooquity server, now how do I read them ?
-
-Many comics readers exist for whatever device you might be using, here are only a few suggestions :
-
-* Windows users might want to try [**Comic Rack**](http://comicrack.cyolito.com/) (for advanced comics management) or [**Sumatra PDF**](http://www.sumatrapdfreader.org/free-pdf-reader.html) (for easy reading of a lot of formats like cbr, cbz, epub, pdf...).
-* on iPad, [**Chunky Reader**](http://chunkyreader.com/) has implemented Ubooquity specific comic streaming support and can also be used to access a Ubooquity server through its internal browser. [**Comic Glass**](http://comicglass.net/en/) is also quite good (although it does not support streaming and its internal browser is not as intuitive to use).
-* Android users also have excellent viewers at their disposal, [**Challenger Comics Viewer**](https://play.google.com/store/apps/details?id=org.kill.geek.bdviewer) and [**Comic Viewer for Ubooquity**](https://play.google.com/store/apps/details?id=com.sethchhim.comicviewerforubooquity) for instance
-
-
 ### How can I make Ubooquity start with Windows ?
 
 Just create a shortcut to the **Ubooquity.jar** file (right-click, create shortcut) and put it in your **Startup** folder (located at `C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`).
@@ -50,22 +41,6 @@ You must force Calibre to write information in the epub files containing your bo
 ### Some of my books appear duplicated in Ubooquity but not in Calibre
 
 Sometimes Calibre generates extra epub files when a problem occurs during file modification. To remove them, follow the procedure described in [the Calibre related tips](calibre-sharing.html).
-
-### How can I add metadata to my comics so that Ubooquity displays them ?
-Here is a [detailed tutorial]](tutorials/add-metadata-with-comicrack.html) on using ComicRack to update comics matadata. (thanks to _Matthew Sanders_)
-
-### Can I run Ubooquity on a Raspberry Pi ?
-
-Yes, Ubooquity has been succesfully tested on a Pi.
-
-Raspbian images ship with Oracle Java by default.
-It also can be installed with the following command:
-
-```bash
-sudo apt-get update && sudo apt-get install oracle-java8-jdk
-```
-
-Once you have the Java Runtime Environment installed, just follow the command line installation instructions in Ubooquity documentation like you would do for an installation on any regular Linux.
 
 ### Can Ubooquity read DRM protected files ?
 
@@ -110,35 +85,6 @@ If you use the startup script provided by the documentation, find and uncomment 
 ### How do I customize the format of my logs ?
 
 Follow the instructions of [this tutorial](tutorials/log-customization.html).
-
-### Can I have a Docker container for Ubooquity?
-
-Docker containers have been set up by some users and are available here:
-
----
-
-#### HurricaneHernandez
-Docker repository: [https://registry.hub.docker.com/u/hurricane/ubooquity/](https://registry.hub.docker.com/u/hurricane/ubooquity/)  
-Forum thread: [http://lime-technology.com/forum/index.php?topic=36278.0](http://lime-technology.com/forum/index.php?topic=36278.0)  
-Github repository for scripts: [https://github.com/HurricaneHernandez/ubooquity](https://github.com/HurricaneHernandez/ubooquity)  
-
-(not packaged by me, please address your questions directly on the Lime Technology forums) 
-
----
-
-#### [LinuxServer.io](https://linuxserver.io)
-
-**For x64 devices**  
-Docker repository: [https://hub.docker.com/r/linuxserver/ubooquity/](https://hub.docker.com/r/linuxserver/ubooquity/)  
-Github repository: [https://github.com/linuxserver/docker-ubooquity](https://github.com/linuxserver/docker-ubooquity)  
-
-(not packaged by me, please address setup queries directly on the [LinuxServer.io forum](https://forum.linuxserver.io/), [LinuxServer.io IRC chatroom](https://www.linuxserver.io/irc/) or, for Unraid users, the [Lime Technology forum](http://lime-technology.com/forum/index.php?topic=54543.0))
-
-**For ARM devices**  
- Docker repository: [https://hub.docker.com/r/lsioarmhf/ubooquity/](https://hub.docker.com/r/lsioarmhf/ubooquity/)  
-Github repository: [https://github.com/linuxserver/docker-ubooquity-armhf](https://github.com/linuxserver/docker-ubooquity-armhf)  
-
-(not packaged by me, please address setup queries directly on the [LinuxServer.io forum](https://forum.linuxserver.io/) or the  [LinuxServer.io IRC chatroom](https://www.linuxserver.io/irc/))
 
 ### Where can I find the source code of Ubooquity ?
 

@@ -23,7 +23,7 @@ To install Ubooquity on device without graphical environment (on a NAS for insta
 
 Here are the steps of an installation without using the graphical interface.
 
-1. First, you need to install Java on your device. You can [get it here](https://www.java.com/en/download/manual.jsp) for desktop computers. Others devices, like NAS or Raspberry Pi, require specific versions though.  
+1. First, you need to install Java on your device. You can get it  on the [Eclipse Temurin page](https://adoptium.net/en-GB/temurin/releases), although any other Java distribution can be used as well. Others devices, like NAS or Raspberry Pi, require specific versions though.  
 
 2. Then download the Ubooquity package from the [download page](http://vaemendis.net/ubooquity/static2/download).  
 
@@ -48,7 +48,7 @@ Here are the steps of an installation without using the graphical interface.
     For security reasons, the administration is only reachable from the device Ubooquity is running on. To allow access from a remote computer, use the <b>--remoteadmin</b> option.
     </div>
 
-6. Now, add the directories you want to share (comics, ebooks or other types of files) in the appropriate sections of the administration page. At this point you can also define users and password to restrict files access.  
+6. Now, add the directories you want to share in the appropriate sections of the administration page. At this point you can also define users and password to restrict files access.  
 
 7. Your files are now available on **http://YOUR_IP:2202**
 

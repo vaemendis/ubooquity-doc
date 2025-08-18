@@ -5,7 +5,7 @@ title: Ubooquity directory structure
 ```
 Ubooquity
 │   preferences.json    ──>  The preferences you set up on the admin page (directories, users, etc.) 
-│   ubooquity─5.mv.db   ──>  The Database containing the list and metadata of your comics and ebooks
+│   ubooquity─6.mv.db   ──>  The Database containing the list and metadata of your comics and ebooks
 │   Ubooquity.jar       ──>  The jar you download from the Ubooquity web site
 │   webadmin.cred       ──>  Encrypted admin password (delete it to reset the admin password)
 │   
