@@ -8,7 +8,9 @@ title: User created themes
 
 # Themes for Ubooquity 3
 
-Coming soon.
+[**Renegade Reader** by Gary](https://ubooquity.userecho.com/communities/1/topics/1067-renegade-reader-theme-for-ubooquity-31)
+
+![](/assets/images/themes/renegade-reader.png)
 
 # Themes for Ubooquity 2
 
